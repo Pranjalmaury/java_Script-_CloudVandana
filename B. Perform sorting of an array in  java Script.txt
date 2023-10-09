@@ -1,0 +1,10 @@
+// B. Perform sorting of an array in descending order. 
+
+const numbers = [1, 3, 9, 1, 7, 9];
+
+
+numbers.sort(function(a, b) {
+  return b - a;
+});
+
+console.log(numbers); 
